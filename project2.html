@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Koustav dey" type="Devoloper">
+    <meta name="robots" content="Index, Follow">
+    <meta name="Description" content="HTML,CSS">
+    <meta name="keywords" content="This project is base on html and css">
+    <title>CODING WORLD</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Concert+One&display=swap"
+    rel="stylesheet">
+<link rel="Stylesheet" href="style.css">
+<style>
+    /*css reset*/
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("img/4.jpg");
+        background-repeat: no-repeat;
+        background-size: 2000px;
+        color: white;
+        /* font-family: 'Special Elite', cursive; */
+        font-family: 'Concert One', cursive;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 1px;
+
+    }
+
+    .left img {
+        width: 150px;
+        filter: invert(100%);
+        
+    }
+
+    .left div {
+        text-align: center;
+        position: relative;
+        top: -6px;
+        left: -6px;
+    }
+
+    .mid {
+
+        display: block;
+        width: 50%;
+        margin: 28px auto;
+        border: 5px double black;
+        background-color: rgba(128, 128, 128, 0.24);
+        border-radius: 15px;
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid blue; */
+        position: fixed;
+        right: 34px;
+        top: 18px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 32px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 30px;
+    }
+
+    .bar {
+        display: block;
+        /* border: 2px solid yellow; */
+        width: 99%;
+        margin: 33px auto;
+        background-color: black;
+        border: 2px double gray;
+    }
+
+    .allbar li {
+        display: inline-block;
+        font-size: 27px;
+    }
+
+    .allbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 47px;
+    }
+
+    .allbar li a:hover {
+        text-decoration: underline;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 27px 7px;
+        background-color: black;
+        color: white;
+        padding: 16px 8px;
+        border: 2px solid grey;
+        border-radius: 20px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Special Elite', cursive;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(168, 164, 164);
+    }
+
+    .searchbar input[type=text] {
+        padding: 16px;
+        border: none;
+        margin-top: 34px;
+        font-size: 27px;
+        position: absolute;
+        top: 311px;
+        left: 343px;
+        height: 30px;
+        width: 654px;
+        border-radius: 30px;
+        background-color: rgba(221, 214, 214, 0.808);
+        text-align: center;
+        font-family: 'Special Elite', cursive;
+    }
+
+    .searchbtn {
+        display: inline-block;
+        /* border: 2px solid blue; */
+        position: fixed;
+        right: 235px;
+        bottom: 283px;
+    }
+
+    .search {
+        margin: 38px 76px;
+        padding: 13px 46px;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.527);
+        color: white;
+        border-radius: 39px;
+        border: 2px outset grey;
+        font-family: 'Special Elite', cursive;
+    }
+
+    .search:hover {
+        background-color: rgb(168, 164, 164);
+    }
+
+    .box {
+
+        left: 27px;
+        top: 278px;
+        /* border: 2px solid red; */
+        text-align: justify;
+        width: 168px;
+        height: 157px;
+        display: inline-table;
+        margin: 2px 17px;
+        padding: 5px 2px;
+        position: relative;
+        border: none;
+        color: rgb(221, 221, 221);
+    }
+
+    .line {
+        margin: -1px 81px;
+        position: relative;
+        top: 283px
+    }
+
+    .container {
+        /* border: 2px solid red; */
+        position: relative;
+        /* display: block; */
+        top: -500px;
+        left: -514px;
+        margin: -2px 702px;
+        padding: 3px 2px;
+    }
+
+    .container img {
+        width: 120px;
+        filter: invert(83%);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--Left Side-->
+        <div class="left">
+            <img src="img/2.png" alt="">
+
+
+            <div>Coding World</div>
+
+        </div>
+        <!--Middle navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Upload Code</a></li>
+                <li><a href="#">Git</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="bar">
+            <ul class="allbar">
+                <li><a href="#">C</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Ruby</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">Java Script</a></li>
+            </ul>
+        </div>
+        <!--Right side-->
+        <div class="right">
+            <button class="btn">Test Your Skill</button><button class="btn">Contact Us</button>
+
+        </div>
+    </header>
+    <div class="searchbar">
+        <from action="notation.php">
+            <div>
+                <input type="text" name="search" placeholder="Search Your Program Here">
+            </div>
+            <div class="searchbtn">
+                <button class="search">Search</button>
+            </div>
+        </from>
+        <hr class="line">
+        <div class="box" id="box1">
+            <p>C was originally developed at Bell Labs by Dennis Ritchie between 1972 and 1973 to make utilities running
+                on Unix.</p>
+        </div>
+        <div class="box" id="box1">
+            <p>In 1989, C++ 2.0 was released, followed by the updated second edition of The C++ Programming Language in
+                1991.</p>
+        </div>
+        <div class="box" id="box1">
+            <p>Java was originally developed by James Gosling at Sun Microsystems and released in 1995 as a core
+                component of Sun Microsystems' Java platform.</p>
+        </div>
+        <div class="box" id="box1">
+            <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum
+                and first released in 1991.</p>
+        </div>
+        <div class="box" id="box1">
+            <p>Ruby is an interpreted, high-level, general-purpose programming language. It was developed in the
+                mid-1990s by Yukihiro "Matz" Matsumoto in Japan.</p>
+        </div>
+        <div class="box" id="box1">
+            <p>PHP is a popular general-purpose scripting language that is especially suited to web development. It was
+                originally created by Rasmus Lerdorf in 1994.</p>
+        </div>
+        <div class="box" id="box1">
+            <p>In November 1996, Netscape submitted JavaScript to ECMA International. This led to the official release
+                of the first ECMAScript language specification in June 1997</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <!-- <img src="5.png" alt=""> -->
+    </div>
+</body>
+
+</html>

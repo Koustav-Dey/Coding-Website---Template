@@ -5,6 +5,6 @@ Hii  I am Koustav . I made website with HTML And CSS . Basically its a Coding We
 
 ### Demo 
 
-<img src="https://github.com/Koustav-Dey/Gym-Website/blob/main/img/Gym.png" />    
+<img src="https://github.com/Koustav-Dey/Coding-Website---Template/blob/main/img/coding.png" />    
 </a>&nbsp;&nbsp;
 
